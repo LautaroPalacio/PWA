@@ -1,0 +1,133 @@
+@media screen {
+    body {
+        background-color: white;
+        font-family: Arial, sans-serif;
+    }
+    
+    .navbar a.nav-link {
+        margin-left: 10px;
+        font-size: 21px;
+        color: black;
+    }
+    .navbar form{
+        margin-left: 20px;
+    }
+    
+    .container {
+        background-color: rgb(168, 255, 252);
+        border-radius: 10px;
+        margin-top: 20px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card {
+        border: 1px solid #ccc;
+        background-color: rgb(207, 253, 199);
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+    
+    .card-title {
+        font-size: 1.25rem;
+    }
+    
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+    
+    .btn-success:hover {
+        background-color: #218838;
+        border-color: #218838;
+    }
+    
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+    
+    .btn-danger:hover {
+        background-color: #c82333;
+        border-color: #c82333;
+    }
+    
+    i {
+        cursor: pointer;
+        font-size: 24px;
+        color: #ccc;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+    i:hover {
+        color: red;
+        transition: color 0.3s ease-in-out;
+    }
+
+    footer ul li{
+        list-style: none;
+    }
+    .navbar form {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .navbar form {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    .card {
+        margin-bottom: 5px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .navbar form {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
